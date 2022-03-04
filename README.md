@@ -29,5 +29,7 @@ of first digits for both and the error regarding their difference from the Benfo
 The 'equivalence caller' script calls equivalence tester multiple times for up to a number of layers and variables equal to 'max'. Then it calculates how close the first digit
 distributions are for different combinations of layers and variables. 
 
-The result of 'equivalence caller' for max=8 and 200 repetitions(calls) of the tester for each step are shown in 'results'.
+The result of 'equivalence caller' for max=8 and 200 repetitions(calls) of the tester for each step are shown in 'results'. The y axis represents the difference between the distributions create with the two methods and thex axis represents all the combinations. The red vartical lines represent combinations where the layers of the first method
+are equal to the number of variables of the second method. We see that the difference is minimized there for small number of layers. Larger samples may be needed to show the
+same for larger amounts of variables and layers.
 
